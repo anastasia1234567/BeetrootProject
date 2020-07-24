@@ -1,0 +1,89 @@
+.certificates{
+    background-color: $primary-white-beige;
+    // padding-top: 70px;
+    padding-bottom: 132px;
+}
+.certificates .title{
+    padding-bottom: 40px;
+
+// .certificate__slider{
+//   margin: auto;
+ }
+.certificate__img{
+    padding: 20px;
+    border: thin $primary-violet;
+
+}
+.certificate__slider-nav{
+    width: 80%;
+    margin: auto;
+}
+.slick-initialized .slick-slide{
+    display: flex;
+}
+.certificate__img-sub{
+    padding: 50px;
+    color: $primary-violet;
+    font: 100% $font-logo;
+    letter-spacing: 1px;  
+}
+.certificate__title{
+    font: 100% $font-menu;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+// .prev{
+//     width: 20px;
+//     height: 20px;
+// }
+// .next{
+//     width: 20px;
+//     height: 20px;
+// }
+// .prev,
+// .next {
+// //   position: absolute;
+// //   top: 30%;
+//   width: 20px;
+//   height: 20px;
+//   z-index: 1;
+//   cursor: pointer;
+// }
+// .prev{
+//     margin-left: 400px;
+// }
+// .next {
+//     left: 0;
+//     position: absolute;
+//     top: 0%;
+//     margin-left: 500px;
+// }
+.prev,
+.next {
+    position: absolute;
+    top: 30%;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+.next{
+    right: 0;
+}
+@media only screen and (max-width: 900px) {
+    .slick-initialized .slick-slide{
+        flex-direction: column;
+    }
+    // .prev,
+    // .next {
+    //     position: absolute;
+    //     top: 30%;
+    //     width: 20px;
+    //     height: 20px;
+    //     z-index: 1;
+    //     cursor: pointer;
+    // }
+    // .next{
+    //     right: 0;
+    // }
+}

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Playfair+Display:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./libs/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./libs/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/styles.scss">
+    <title>Irina Demerkova</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- Menu section -->
+        <section class="menu-section">
+            <div class="container">
+                <div class="menu">
+                    <div class="menu__list-wrap">
+                        <!-- <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span class="hamburger"></span>
+                        </label> -->
+                        <img class="burger-menu" src="./images/burger-menu.svg" />
+
+                        <ul class="list" id="myLinks">
+                            <li class="list__item"><a href="#home" class="list__item-anchor">Home</a></li>
+                            <li class="list__item"><a href="#aboutMe" class="list__item-anchor">About me</a></li>
+                            <li class="list__item"> <a href="#services" class="list__item-anchor">Services</a></li>
+                            <li class="list__item"><a href="#certificates" class="list__item-anchor">Certificates</a>
+                            </li>
+                            <li class="list__item"><a href="#cost" class="list__item-anchor">Service cost</a></li>
+                            <li class="list__item"><a href="#contact" class="list__item-anchor">Contacts</a></li>
+                        </ul>
+                        <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home section-->
+        <section class="home" id="home">
+            <div class="container">
+                <h1 class="logo">Irina Demerkova</h1>
+                <p class="subtitle ">Psychologist <img class="dot" src="./images/dot.svg" />
+                    Psychotherapist</p>
+                <div class="btn-wrap"><button class="btn" href="">Contact Me</button></div>
+                <div class="scroll">
+                    <a href="#aboutMe" class="anchor">
+                        <img class="scroll__img" src="./images/scroll.svg" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About me section-->
+        <section class="aboutMe" id="aboutMe">
+            <div class="container">
+                <h2 class="title">About Me</h2>
+                <div class="aboutMe__wrap">
+                    <div class="aboutMe__img-wrap"><img class="aboutMe__img" src="./images/img_me3-1.jpeg" /></div>
+                    <div class="aboutMe__descr-wrap">
+
+                        <div class="aboutMe__descr-border">
+                            <p class="aboutMe__descr">I have a basic psychologist degree, a diploma from the Taras
+                                Shevchenko
+                                National
+                                University of Lugansk. A master’s diploma from the Dal University of Lugansk.</p>
+                        </div>
+                        <div class="aboutMe__descr-border">
+                            <p class="aboutMe__descr">I studied, improving my qualifications in many areas in
+                                psychotherapy,
+                                as evidenced by certificates and diplomas. I am happy to use this rich experience in
+                                therapy
+                                and
+                                counseling
+                                in the structure of Transactional Analysis in compliance with the EATA Code of Ethics
+                                and
+                                position myself as a psychotherapist working in a transaction-analytical modality.</p>
+                        </div>
+                        <div class="aboutMe__descr-border">
+                            <p class="aboutMe__descr">The main principles in my work are confidentiality, mutual
+                                agreement
+                                and
+                                responsibility with the client about the result of work, relying on the experience and
+                                resources
+                                of the client, professionalism and goodwill in communication.</p>
+                        </div>
+                        <div class="btn-wrap"><button class="btn" href="">Show more</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section-->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="title">Services</h2>
+                <div class="services__block-wrap">
+                    <div class="services__block">
+                        <img class="services__img" src="./images/psychotherapy.jpg" />
+                        <div class="services__sub">
+                            <h3 class="services__title">Psychotherapy</h3>
+                            <p class="services__descr">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                                ad minim veniam,
+                                quis</p>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <img class="services__img" src="./images/counseling1.jpg" />
+                        <div class="services__sub">
+                            <h3 class="services__title">Counselling</h3>
+                            <p class="services__descr">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                                ad minim veniam,
+                                quis</p>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <img class="services__img" src="./images/work-online1.jpeg" />
+                        <div class="services__sub">
+                            <h3 class="services__title">Online work</h3>
+                            <p class="services__descr">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                                ad minim veniam,
+                                quis</p>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <img class="services__img" src="./images/male-femail.png" />
+                        <div class="services__sub">
+                            <h3 class="services__title">Male-female relationship</h3>
+                            <p class="services__descr">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                                ad minim veniam,
+                                quis</p>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <img class="services__img" src="./images/teen-terapy2.jpg" />
+                        <div class="services__sub">
+                            <h3 class="services__title">Teen therapy</h3>
+                            <p class="services__descr">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                                ad minim veniam,
+                                quis</p>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <img class="services__img" src="./images/couple-theraphy.jpg" />
+                        <div class="services__sub">
+                            <h3 class="services__title">COUPLES COUNSELLING</h3>
+                            <p class="services__descr">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                                ad minim veniam,
+                                quis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates section-->
+        <section class="certificates" id="certificates">
+            <div class="container">
+                <h2 class="title">Certificates</h2>
+                <div class="certificate__slider">
+                    <div class="certificate__slider-block">
+                        <div class="certificate__img-wrap"><img class="certificate__img" src="./images/sert1.jpg" />
+                        </div>
+                        <div class="certificate__descr-wrap">
+                            <div class="certificate__img-sub">
+                                <h3 class="certificate__title">Lorem ipsum</h3>
+                                <p class="certificate__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed
+                                    do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certificate__slider-block">
+                        <img class="certificate__img" src="./images/sert2.jpg" />
+                        <div class="certificate__img-sub">
+                            <h3 class="certificate__title">Lorem ipsum</h3>
+                            <p class="certificate__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="certificate__slider-block">
+                        <div><img class="certificate__img" src="./images/sert3.jpg" /></div>
+                        <div class="certificate__img-sub">
+                            <h3 class="certificate__title">Lorem ipsum</h3>
+                            <p class="certificate__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="certificate__slider-block">
+                        <img class="certificate__img" src="./images/sert4.jpg" />
+                        <div class="certificate__img-sub">
+                            <h3 class="certificate__title">Lorem ipsum</h3>
+                            <p class="certificate__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="certificate__slider-block">
+                        <img class="certificate__img" src="./images/sert5.jpg" />
+                        <div class="certificate__img-sub">
+                            <h3 class="certificate__title">Lorem ipsum</h3>
+                            <p class="certificate__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="certificate__slider-block">
+                        <img class="certificate__img" src="./images/sert6.jpg" />
+                        <div class="certificate__img-sub">
+                            <h3 class="certificate__title">Lorem ipsum</h3>
+                            <p class="certificate__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="certificate__slider-block">
+                        <img class="certificate__img" src="./images/sert7.jpg" />
+                        <div class="certificate__img-sub">
+                            <h3 class="certificate__title">Lorem ipsum</h3>
+                            <p class="certificate__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate__slider-nav">
+                    <img class="certificate__img" src="./images/small-sert1.jpg" />
+                    <img class="certificate__img" src="./images/small-sert2.jpg" />
+                    <img class="certificate__img" src="./images/small-sert3.jpg" />
+                    <img class="certificate__img" src="./images/small-sert4.jpg" />
+                    <img class="certificate__img" src="./images/small-sert5.jpg" />
+                    <img class="certificate__img" src="./images/small-sert6.jpg" />
+                    <img class="certificate__img" src="./images/small-sert7.jpg" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Cost section-->
+        <section class="cost" id="cost">
+            <div class="container">
+                <h2 class="title">Service cost</h2>
+                <div class="cost__wrap">
+                    <div class="cost__block">
+                        <div class="cost__block-wrap">
+                            <h3 class="cost__title">Individual work</h3>
+                            <p class="cost__cost">&#8372;800</p>
+                            <p class="cost__time">55 min</p>
+                        </div>
+                        <img class="cost__line" src="./images/wave-line.png" />
+                        <div class="cost__block-wrap">
+                            <h3 class="cost__title">Work with couples</h3>
+                            <p class="cost__cost">&#8372;1000</p>
+                            <p class="cost__time">80 min</p>
+                        </div>
+                    </div>
+                    <form class="contact__form">
+                        <div class="contact__form-title">
+                            <label class="contact__title" for="fname">Full Name:</label>
+                            <label class="contact__title" for="phone">Phone number:</label>
+                            <label class="contact__title" for="email">Email or Skype:</label>
+                            <label class="contact__title" for="email">Message:</label>
+                        </div>
+                        <div class="contact__form-title">
+
+                            <input class="contact__fill" type="text" id="fname" name="fname"
+                                placeholder="Name Surname"><br>
+
+                            <input class="contact__fill" type="tel" id="phone" name="phone"
+                                placeholder="+380951234567"><br>
+
+                            <input class="contact__fill" type="text" id="email" name="email" value-size="30"
+                                placeholder="example@gmail.com" autocomplete="off"><br>
+                            <textarea class="contact__textarea" name="massage" cols="30"
+                                placeholder="Describe your request"></textarea><br>
+                            <div class="btn-wrap"><button class="btn" type="submit">Send Message</button></div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section-->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="title">Contacts</h2>
+                <div class="contact__wrap">
+                    <div class="contact__info">
+                        <div class="contact__social">
+                            <img class="contact__img" src="./images/phone.svg" />
+                            <img class="contact__img" src="./images/map.svg" />
+                            <img class="contact__img" src="./images/email.svg" />
+                            <img class="contact__img" src="./images/skype.svg" />
+                        </div>
+                        <div class="contact__social">
+                            <a href="#" class="social-link">
+                                <p class="contact__social-title">+380662145879</p>
+                            </a>
+                            <p class="contact__social-title">Yelyzavety Chavdar Street,11, Kyiv city</p>
+                            <a href="#" class="social-link">
+                                <p class="contact__social-title">irina.demerkova@gmail.com</p>
+                            </a>
+                            <a href="#" class="social-link">
+                                <p class="contact__social-title">demerkova1</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact__map-wrap">
+                        <div class="contact__map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.717113993886!2d30.61950804266398!3d50.39367247586574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5b525bb7e11%3A0xd94f744115d88234!2z0YPQuy4g0JXQu9C40LfQsNCy0LXRgtGLINCn0LDQstC00LDRgCwgMTEsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1595010349916!5m2!1sru!2sua"
+                                width="400" height="350" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="footer">
+            <div class="container">
+                <!-- <div class="footer__titles">
+                    <h3 class="footer__title">Services</h3>
+                    <h3 class="footer__title">Contacts</h3>
+                </div> -->
+                <div class="footer__content">
+                    <div class="footer__services">
+                        <h3 class="footer__title">Services</h3>
+                        <a href="#" class="services-link">
+                            <p class="footer__services-title">Psychotherapy</p>
+                        </a>
+                        <a href="#" class="services-link">
+                            <p class="footer__services-title">Counselling</p>
+                        </a>
+                        <a href="#" class="services-link">
+                            <p class="footer__services-title">Online work </p>
+                        </a>
+                        <a href="#" class="services-link">
+                            <p class="footer__services-title">Male-female relationship</p>
+                        </a>
+                        <a href="#" class="services-link">
+                            <p class="footer__services-title">Theen therapy</p>
+                        </a>
+                        <a href="#" class="services-link">
+                            <p class="footer__services-title">Couples counseling</p>
+                        </a>
+                    </div>
+                    <div class="footer__social">
+                        <h3 class="footer__title">Contacts</h3>
+                        <p class="contact__social-title">Phone: <a href="#" class="social-link">+380662145879</a></p>
+                        <p class="contact__social-title">Address: Yelyzavety Chavdar Street,11, Kyiv city</p>
+                        <p class="contact__social-title">E-mail: <a href="#"
+                                class="social-link">irina.demerkova@gmail.com</a></p>
+                        <p class="contact__social-title">Skype: <a href="#" class="social-link">demerkova1</a></p>
+                    </div>
+                    <p class="footer__copyright">&copy;Anastasia Demerkova</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./libs/slick/slick.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
